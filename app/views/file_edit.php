@@ -6,6 +6,7 @@
         <script src="<?= base_url() ?>js/lib/marked.min.js"></script>
         <script src="<?= base_url() ?>js/common.js"></script>
         <script src="<?= base_url() ?>js/common_edit.js"></script>
+        <script src="<?= base_url() ?>js/magic_words.js"></script>
         <link rel="stylesheet" href="<?= base_url() ?>css/thoda.min.css">
         <link rel="stylesheet" href="<?= base_url() ?>css/common.css">
         <link rel="stylesheet" href="<?= base_url() ?>css/common_edit.css">

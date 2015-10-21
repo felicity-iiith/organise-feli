@@ -25,6 +25,7 @@ function updateMD () {
     // Convert markdown
     if (mdText == file_md_edit.value) return;
     mdText = file_md_edit.value;
+    mdText = magicWords.process(mdText);
     file_md.innerHTML = marked(mdText);
 }
 function setupEdit() {
